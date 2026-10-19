@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rock Mail Privacy Policy</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="icon.png">
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <h1>Privacy Policy</h1>
+  </header>
+  <p class="lead">Rock Mail for iPhone and Mac. Effective October 19, 2026.</p>
+  <nav>
+    <a href="index.html">Rock Mail</a>
+    <a href="support.html">Support</a>
+  </nav>
+
+  <h2>In short</h2>
+  <p>Rock Mail doesn't collect any data about you. The developer doesn't run servers that receive your mail, and the app contains no analytics, advertising or tracking. Your mail goes only between your device and the mail server you sign in to.</p>
+
+  <h2>Your mail and account</h2>
+  <p>When you sign in, Rock Mail connects directly to your mail server (using JMAP, or IMAP and SMTP) over an encrypted connection. Your messages, folders and drafts are stored on that server and cached on your device so the app works offline. Your password is kept in your device's keychain. Signing out deletes the cached mail from the device.</p>
+
+  <h2>Contacts</h2>
+  <p>If you allow access, Rock Mail reads your contacts on the device to show names and photos and to suggest addresses as you type. Contacts are never sent anywhere by Rock Mail. When you choose “Add to Contacts”, the contact is saved to your device's address book.</p>
+
+  <h2>Settings shared between your devices</h2>
+  <p>Some settings, such as the senders whose remote images you always load, are stored on your own mail server (as a small inactive Sieve script named “rockmail-settings”) so your other devices can use them. They stay on your server.</p>
+
+  <h2>Remote content</h2>
+  <p>Many emails contain images stored on the sender's servers, which can tell the sender when and roughly where a message was opened. Rock Mail doesn't load them unless you choose to, for that message or for a sender you allow, and it removes known tracking images.</p>
+
+  <h2>Notifications</h2>
+  <p>New-mail notifications are prepared on your device. On devices with Apple Intelligence, short summaries of new messages are written on the device by Apple's on-device model; your mail isn't sent anywhere for this.</p>
+  <p>Background notifications on iPhone are optional and work only if you enter a push relay address in Settings. Your mail server then sends a signal to that relay when something changes (it contains no message content), and the relay passes it to your device through Apple Push Notification service, using your device's push token. The relay is run by whoever you choose; Rock Mail's developer doesn't receive these signals unless you choose a relay the developer runs.</p>
+
+  <h2>Children</h2>
+  <p>Rock Mail isn't directed at children and doesn't knowingly collect information from anyone.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version will be posted on this page with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy: open an issue at <a href="https://github.com/jridder/rockmail-site/issues">github.com/jridder/rockmail-site/issues</a>.</p>
+
+  <hr>
+  <p class="muted">© 2026 Jeff Ridder</p>
+</main>
+</body>
+</html>
